@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Speak to find</string>
+    <string name="title">PHÁT ÂM TÌM ĐIỆN THOẠI</string>
+    <string name="setting">CÀI ĐẶT</string>
+    <string name="sound">Âm thanh</string>
+    <string name="vibration">Rung</string>
+    <string name="flash">Đèn flash</string>
+    <string name="work">Chỉ phát tín hiệu khi tắt màn hình</string>
+    <string name="ringtone">NHẠC CHUÔNG</string>
+    <string name="volume">ÂM LƯỢNG</string>
+
+    <string name="title_flash_alertDialog">Lỗi !!</string>
+    <string name="message_flash_alertDialog">Thiết bị của bạn không hỗ trợ đèn flash</string>
+
+    <string name="title_info_alertDialog">Hướng dẫn:</string>
+    <string name="message_info_alertDialog">1.Ứng dụng này làm gì? "\n"Nếu bạn không thể tìm thấy điện thoại của mình, ứng dụng này sẽ giúp bạn. Bấm vào nút để bật và dùng giọng nói của bạn hoặc huýt sáo để tìm điện thoại! "\n\n" 2.Nó hoạt động ở chế độ im lặng? "\n"Ứng dụng này có thể bật cảnh báo ngay cả khi ở chế độ im lặng</string>
+
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Speak to find</string>
+    <string name="title">SPEAK TO FIND</string>
+    <string name="setting">SETTING</string>
+    <string name="sound">Sound</string>
+    <string name="vibration">Vibration</string>
+    <string name="flash">Flash</string>
+    <string name="work">Works only when screen is OFF</string>
+    <string name="ringtone">RINGTONE</string>
+    <string name="volume">VOLUME</string>
+
+    <string name="title_flash_alertDialog">Error !!</string>
+    <string name="message_flash_alertDialog">Your device does not support flash light!</string>
+
+    <string name="title_info_alertDialog">Guide:</string>
+    <string name="message_info_alertDialog">1.What if this app for? "\n"If you can not find your phone this app can help you. Tap to turn ON and speak or whistle to find phone! "\n\n" 2.Does it work in silent mode? "\n"This app can turn on on sound alert even if phone is in silent mode.</string>
+
+
+
+</resources>

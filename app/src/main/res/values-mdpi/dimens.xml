@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title">25dp</dimen>
+    <dimen name="margin_top_title">15dp</dimen>
+
+    <dimen name="switch_width">150dp</dimen>
+    <dimen name="switch_height">52.5dp</dimen>
+    <dimen name="marginSwitch">70dp</dimen>
+
+    <dimen name="marginFrequency">130dp</dimen>
+
+    <dimen name="setting">25dp</dimen>
+    <dimen name="margin_top_setting">150dp</dimen>
+
+    <dimen name="margin_top_sound">190dp</dimen>
+
+    <dimen name="margin_top_vibration">220dp</dimen>
+
+    <dimen name="margin_top_flash">250dp</dimen>
+
+    <dimen name="margin_top_work">280dp</dimen>
+
+    <dimen name="margin_top_ringtone">320dp</dimen>
+    <dimen name="ringtone">15dp</dimen>
+
+    <dimen name="ringtone_selected">345dp</dimen>
+
+    <dimen name="margin_top_listview">365dp</dimen>
+
+    <dimen name="margin_top_volume">370dp</dimen>
+    <dimen name="volume">15dp</dimen>
+
+    <dimen name="margin_top_seekbar">390dp</dimen>
+
+</resources>

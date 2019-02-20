@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:id="@+id/layoutMain">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_title"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textSize="@dimen/title"
+        android:textColor="#ffffff"/>
+
+
+    <RelativeLayout
+        android:id="@+id/layoutScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <ToggleButton
+    android:id="@+id/toggleButtonSwitch"
+    android:textOff=""
+    android:textOn=""
+    android:layout_width="@dimen/switch_width"
+    android:layout_height="@dimen/switch_height"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="@dimen/margin_top_switch"
+    android:background="@drawable/custom_toggle_button"
+    />
+
+    <TextView
+        android:id="@+id/textViewFrequency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginFrequency"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting"
+        android:textSize="@dimen/setting"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/margin_top_setting"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sound"
+        android:textColor="#ffffff"
+        android:layout_marginTop="@dimen/margin_top_sound" />
+
+    <CheckBox
+        android:id="@+id/checkBoxVibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vibration"
+        android:textColor="#ffffff"
+        android:layout_marginTop="@dimen/margin_top_vibration"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxFlash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flash"
+        android:textColor="#ffffff"
+        android:layout_marginTop="@dimen/margin_top_flash"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/work"
+        android:textColor="#ffffff"
+        android:layout_marginTop="@dimen/margin_top_work"/>
+
+    <TextView
+        android:id="@+id/textViewRingtoneName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_ringtone"
+        android:text="@string/ringtone"
+        android:textSize="@dimen/ringtone"
+        android:textColor="#ffffff"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/textViewSelectRingtone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to select a ringtone"
+        android:layout_marginTop="@dimen/ringtone_selected"
+        android:textColor="#c735ef"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textViewVolumeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_volume"
+        android:text="@string/volume"
+        android:textSize="@dimen/volume"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_seekbar" />
+
+    <ListView
+        android:id="@+id/listViewRingtone"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="@dimen/margin_top_listview"
+        android:background="#ffffff"
+        android:visibility="invisible">
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Development by QuanCua."
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:textColor="#839c9a9a"/>
+
+</RelativeLayout>

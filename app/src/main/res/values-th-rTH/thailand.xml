@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Speak to find</string>
+    <string name="title">พูดเพื่อหา</string>
+    <string name="setting">การตั้งค่า</string>
+    <string name="sound">เสียง</string>
+    <string name="vibration">การสั่นสะเทือน</string>
+    <string name="flash">แฟลช</string>
+    <string name="work">ใช้ได้เฉพาะเมื่อปิดหน้าจอเท่านั้น</string>
+    <string name="ringtone">ริงโทน</string>
+    <string name="volume">ปริมาณ</string>
+
+    <string name="title_flash_alertDialog">ความผิดพลาด!!</string>
+    <string name="message_flash_alertDialog">อุปกรณ์ของคุณไม่รองรับไฟแฟลช</string>
+
+    <string name="title_info_alertDialog">คู่มือ:</string>
+    <string name="message_info_alertDialog">1.จะทำอย่างไรถ้า app นี้สำหรับ? "\ n" ถ้าคุณไม่พบโทรศัพท์ของคุณ app นี้สามารถช่วยคุณได้ แตะเพื่อเปิดและพูดหรือเป่านกหวีดเพื่อค้นหาโทรศัพท์! "\ n \ n" 2.มันทำงานในโหมดเงียบหรือไม่? "\ n" แอปนี้สามารถเปิดการแจ้งเตือนด้วยเสียงแม้ว่าโทรศัพท์จะอยู่ในโหมดเงียบ</string>
+
+
+</resources>

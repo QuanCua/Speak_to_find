@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Speak to find</string>
+    <string name="title">HABLE PARA ENCONTRAR</string>
+    <string name="setting">AJUSTE</string>
+    <string name="sound">Sonar</string>
+    <string name="vibration">Vibration</string>
+    <string name="flash">Vibración</string>
+    <string name="work">Funciona solo cuando la pantalla está apagada</string>
+    <string name="ringtone">tono de llamada</string>
+    <string name="volume">VOLUMEN</string>
+
+    <string name="title_flash_alertDialog">Error !!</string>
+    <string name="message_flash_alertDialog">¡Su dispositivo no es compatible con la luz del flash.</string>
+
+    <string name="title_info_alertDialog">Guía:</string>
+    <string name="message_info_alertDialog">1. ¿Qué pasa si esta aplicación es? "\ n" Si no puede encontrar su teléfono, esta aplicación puede ayudarlo. ¡Toca para llamar, hablar o silbar para encontrar el teléfono! "\ n \ n" 2. ¿Trabajas en modo silencioso? "\ n" Esta aplicación puede activar la alerta de sonido incluso si el teléfono está en modo silencioso</string>
+
+
+</resources>
